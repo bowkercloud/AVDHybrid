@@ -29,7 +29,7 @@
     Version:    1.0
     Author:     Dan Bowker
     Blog:       https://bowker.cloud
-    GitHub:     https://github.com/danbowker
+    GitHub:     https://github.com/bowkercloud
     
     Prerequisites:
       - Azure subscription with appropriate permissions
@@ -59,8 +59,8 @@ $AVD_RG          = "AVD-HostPool-RG"       # Holds the AVD host pool
 $Arc_RG          = "AVD-ArcServers-RG"     # Holds the Arc-enabled session hosts
 
 # Locations - public preview supports standard regions
-$AVD_Location    = "uksouth"
-$Arc_Location    = "uksouth"
+$AVD_Location    = "uksouth"             # <-- UPDATE THIS
+$Arc_Location    = "uksouth"             # <-- UPDATE THIS
 
 # Host pool settings
 $HostPoolName    = "AVD-HostPool"
