@@ -8,7 +8,7 @@ PowerShell scripts to automate the deployment of **Azure Virtual Desktop (AVD) f
 
 ## Overview
 
-AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises or non-Azure VMs into the AVD control plane. The session hosts run anywhere — your hypervisor, another cloud, a physical machine — while the host pool, workspace, and application group remain in Azure.
+AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises or non-Azure VMs into the AVD control plane. The session hosts run anywhere - your hypervisor, another cloud, a physical machine - while the host pool, workspace, and application group remain in Azure.
 
 **Full walkthrough:** [https://bowker.cloud/avdhybrid/](https://bowker.cloud/avdhybrid/)
 
@@ -63,7 +63,7 @@ AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises
 ### Step 2 – Run the Session Host script (on each VM)
 
 1. Copy both `Deploy-AVDHybrid-SessionHost.ps1` and `AVD-SessionHost-Config.txt` into the same folder on the VM
-2. Open in PowerShell ISE or VS Code — **Run as Administrator**
+2. Open in PowerShell ISE or VS Code - **Run as Administrator**
 3. Run section by section using **F8**
 
 ### Step 3 – Assign users and connect
@@ -92,12 +92,12 @@ AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises
 | Issue | Fix |
 |---|---|
 | `DomainJoinedCheck` failed | Ensure VM is Entra/ADDS/hybrid joined before installing Arc extension |
-| Arc agent shows Disconnected | Re-run Section 3 — auto-detects and reconnects |
-| Session host Unavailable | Check `SxSStackListenerCheck` — restart the VM |
-| `MetaDataServiceCheck` failed | Semi-fatal in non-Azure environments — doesn't prevent connections |
+| Arc agent shows Disconnected | Re-run Section 3 - auto-detects and reconnects |
+| Session host Unavailable | Check `SxSStackListenerCheck` - restart the VM |
+| `MetaDataServiceCheck` failed | Semi-fatal in non-Azure environments - doesn't prevent connections |
 | Registration token expired | Re-run Section 8 of Greenfield script, copy updated config file to VM |
 | MSI installer fails (1603) | Run PowerShell ISE as Administrator |
-| `BadRequest` on role assignments | Entra propagation delay — script includes 15s wait to mitigate |
+| `BadRequest` on role assignments | Entra propagation delay - script includes 15s wait to mitigate |
 
 ---
 
@@ -111,4 +111,4 @@ AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises
 
 ## Author
 
-**Dan Bowker** — [bowker.cloud](https://bowker.cloud)
+**Dan Bowker** - [bowker.cloud](https://bowker.cloud)
