@@ -33,8 +33,6 @@ Azure Virtual Desktop Hybrid extends AVD by using **Azure Arc** to bridge on-pre
 
 **Identity:** Entra joined, ADDS joined, or hybrid joined are all supported.
 
-**Not supported:** Session hosts hosted on Azure, AWS, GCP, or Alibaba.
-
 ---
 
 ## Prerequisites
