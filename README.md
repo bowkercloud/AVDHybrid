@@ -10,7 +10,7 @@ PowerShell scripts to automate the deployment of **Azure Virtual Desktop (AVD) f
 
 AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises or non-Azure VMs into the AVD control plane. The session hosts run anywhere — your hypervisor, another cloud, a physical machine — while the host pool, workspace, and application group remain in Azure.
 
-**Full walkthrough:** [https://bowker.cloud](https://bowker.cloud)
+**Full walkthrough:** [https://bowker.cloud/avdhybrid/](https://bowker.cloud/avdhybrid/)
 
 ---
 
