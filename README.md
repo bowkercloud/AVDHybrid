@@ -1,4 +1,4 @@
-# AVD Hybrid Environments – Deployment Scripts
+# Azure Virtual Desktop Hybrid – Deployment Scripts
 
 PowerShell scripts to automate the deployment of **Azure Virtual Desktop (AVD) for Hybrid Environments** (Public Preview). Run AVD session hosts on-premises or on any non-Azure hypervisor using Azure Arc.
 
@@ -8,7 +8,7 @@ PowerShell scripts to automate the deployment of **Azure Virtual Desktop (AVD) f
 
 ## Overview
 
-AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises or non-Azure VMs into the AVD control plane. The session hosts run anywhere - your hypervisor, another cloud, a physical machine - while the host pool, workspace, and application group remain in Azure.
+Azure Virtual Desktop Hybrid extends AVD by using **Azure Arc** to bridge on-premises or non-Azure VMs into the AVD control plane. The session hosts run anywhere - your hypervisor, another cloud, a physical machine - while the host pool, workspace, and application group remain in Azure.
 
 **Full walkthrough:** [https://bowker.cloud/avdhybrid/](https://bowker.cloud/avdhybrid/)
 
@@ -103,7 +103,7 @@ AVD Hybrid Environments extends AVD by using **Azure Arc** to bridge on-premises
 
 ## References
 
-- [Deploy AVD Hybrid Environments](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop-hybrid)
+- [Deploy Azure Virtual Desktop Hybrid](https://learn.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-virtual-desktop-hybrid)
 - [Entra joined session hosts in AVD](https://learn.microsoft.com/en-us/azure/virtual-desktop/azure-ad-joined-session-hosts)
 - [Azure Arc-enabled servers](https://learn.microsoft.com/en-us/azure/azure-arc/servers/)
 
